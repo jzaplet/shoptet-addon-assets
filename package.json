@@ -1,6 +1,6 @@
 {
   "name": "shoptet-addon-assets",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,5 @@
   "bugs": {
     "url": "https://github.com/jzaplet/shoptet-addon-assets/issues"
   },
-  "homepage": "https://github.com/jzaplet/shoptet-addon-assets#readme",
+  "homepage": "https://github.com/jzaplet/shoptet-addon-assets#readme"
 }
