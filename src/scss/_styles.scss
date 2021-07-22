@@ -4078,7 +4078,7 @@ tr.not-important td {
 }
 
 .chosen-container-single .chosen-single div b {
-    background-image: url('/cms/img/_repo-shared/select.png') !important;
+    background-image: url('#{$imagePath}select.png') !important;
     background-repeat: no-repeat !important;
     background-position: right center !important;
     -webkit-appearance: none !important;
@@ -4934,21 +4934,21 @@ select[name='http-code'] {
 }
 
 .tree li span.node-closed {
-    background-image: url('/cms/img/_repo-shared/tree.png');
+    background-image: url('#{$imagePath}tree.png');
     background-position: -56px -54px;
     cursor: pointer;
     top: 2px;
 }
 
 .tree li span.node-opened {
-    background-image: url('/cms/img/_repo-shared/tree.png');
+    background-image: url('#{$imagePath}tree.png');
     background-position: -75px -54px;
     cursor: pointer;
     top: 2px;
 }
 
 .tree li span.node-last {
-    background-image: url('/cms/img/_repo-shared/tree.png');
+    background-image: url('#{$imagePath}tree.png');
     background-position: -38px 0;
 }
 
@@ -4957,7 +4957,7 @@ select[name='http-code'] {
 }
 
 .tree li span.ajax-loader-icon {
-    background: url('/cms/img/_repo-shared/ajaxLoader.gif') no-repeat;
+    background: url('#{$imagePath}ajaxLoader.gif') no-repeat;
 }
 
 .tree li dl {
@@ -7991,7 +7991,7 @@ td.np .shoptet-icon.goto-item {
 }
 
 .job-list-run-here {
-    background: transparent url('/cms/img/_repo-shared/run_single.png') no-repeat scroll 0 0;
+    background: transparent url('#{$imagePath}run_single.png') no-repeat scroll 0 0;
     width: 21px;
     height: 19px;
     display: inline-block;
@@ -8003,7 +8003,7 @@ td.np .shoptet-icon.goto-item {
 }
 
 .job-list-run-all {
-    background: transparent url('/cms/img/_repo-shared/run_all.png') no-repeat scroll 0 0;
+    background: transparent url('#{$imagePath}run_all.png') no-repeat scroll 0 0;
     width: 21px;
     height: 19px;
     display: inline-block;
@@ -8035,7 +8035,7 @@ td.np .shoptet-icon.goto-item {
     width: 14px;
     height: 14px;
     border: 0 !important;
-    background: transparent url('/cms/img/_repo-shared/cancel.svg') 50% 50% no-repeat !important;
+    background: transparent url('#{$imagePath}cancel.svg') 50% 50% no-repeat !important;
     background-size: 14px 14px !important;
 }
 
@@ -10691,67 +10691,67 @@ body#login .four-back {
 }
 
 .four-back-background-1 {
-    background-image: url('/cms/img/_repo-shared/login_photos/01.jpg');
+    background-image: url('#{$imagePath}login_photos/01.jpg');
 }
 
 .four-back-background-2 {
-    background-image: url('/cms/img/_repo-shared/login_photos/02.jpg');
+    background-image: url('#{$imagePath}login_photos/02.jpg');
 }
 
 .four-back-background-3 {
-    background-image: url('/cms/img/_repo-shared/login_photos/03.jpg');
+    background-image: url('#{$imagePath}login_photos/03.jpg');
 }
 
 .four-back-background-4 {
-    background-image: url('/cms/img/_repo-shared/login_photos/04.jpg');
+    background-image: url('#{$imagePath}login_photos/04.jpg');
 }
 
 .four-back-background-5 {
-    background-image: url('/cms/img/_repo-shared/login_photos/05.jpg');
+    background-image: url('#{$imagePath}login_photos/05.jpg');
 }
 
 .four-back-background-6 {
-    background-image: url('/cms/img/_repo-shared/login_photos/06.jpg');
+    background-image: url('#{$imagePath}login_photos/06.jpg');
 }
 
 .four-back-background-7 {
-    background-image: url('/cms/img/_repo-shared/login_photos/07.jpg');
+    background-image: url('#{$imagePath}login_photos/07.jpg');
 }
 
 .four-back-background-8 {
-    background-image: url('/cms/img/_repo-shared/login_photos/08.jpg');
+    background-image: url('#{$imagePath}login_photos/08.jpg');
 }
 
 .four-back-background-9 {
-    background-image: url('/cms/img/_repo-shared/login_photos/09.jpg');
+    background-image: url('#{$imagePath}login_photos/09.jpg');
 }
 
 .four-back-background-10 {
-    background-image: url('/cms/img/_repo-shared/login_photos/10.jpg');
+    background-image: url('#{$imagePath}login_photos/10.jpg');
 }
 
 .four-back-background-11 {
-    background-image: url('/cms/img/_repo-shared/login_photos/11.jpg');
+    background-image: url('#{$imagePath}login_photos/11.jpg');
 }
 
 .four-back-background-12 {
-    background-image: url('/cms/img/_repo-shared/login_photos/12.jpg');
+    background-image: url('#{$imagePath}login_photos/12.jpg');
 }
 
 .four-back-background-13 {
-    background-image: url('/cms/img/_repo-shared/login_photos/13.jpg');
+    background-image: url('#{$imagePath}login_photos/13.jpg');
 }
 
 .four-back-background-14 {
-    background-image: url('/cms/img/_repo-shared/login_photos/14.jpg');
+    background-image: url('#{$imagePath}login_photos/14.jpg');
 }
 
 .four-back-background-15 {
-    background-image: url('/cms/img/_repo-shared/login_photos/15.jpg');
+    background-image: url('#{$imagePath}login_photos/15.jpg');
 }
 
 .four-back-background-16 {
-    background-image: url('/cms/img/_repo-shared/login_photos/16.jpg');
+    background-image: url('#{$imagePath}login_photos/16.jpg');
 }
 
 body#login li:before {
@@ -13489,7 +13489,7 @@ textarea {
 
 select {
     padding-right: 1.5rem;
-    background-image: url('/cms/img/_repo-shared/select-arrow.svg');
+    background-image: url('#{$imagePath}select-arrow.svg');
     background-size: 14px;
     background-repeat: no-repeat;
     background-position: calc(100% - 5px) center;
@@ -13531,7 +13531,7 @@ label.std-control-label,
 input[type='checkbox'] + label.std-control-label {
     border-radius: 3px;
     background-color: #fff;
-    background-image: url('/cms/img/_repo-shared/checkbox-default.svg');
+    background-image: url('#{$imagePath}checkbox-default.svg');
     background-size: 14px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -13550,7 +13550,7 @@ input[type='radio']:checked + label.std-control-label,
 
 input[type='checkbox']:checked + label.std-control-label {
     background-color: #3fa9e6;
-    background-image: url('/cms/img/_repo-shared/checkbox-checked.svg');
+    background-image: url('#{$imagePath}checkbox-checked.svg');
     background-size: 14px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -13563,7 +13563,7 @@ input[type='radio']:disabled + label.std-control-label {
 }
 
 input[type='checkbox']:disabled + label.std-control-label {
-    background-image: url('/cms/img/_repo-shared/checkbox-disabled.svg');
+    background-image: url('#{$imagePath}checkbox-disabled.svg');
 }
 
 input[type='radio']:checked + label.std-control-label:before {
@@ -13584,7 +13584,7 @@ input[type='radio']:checked:disabled + label.std-control-label {
 }
 
 input[type='checkbox']:checked:disabled + label.std-control-label {
-    background-image: url('/cms/img/_repo-shared/checkbox-checked.svg');
+    background-image: url('#{$imagePath}checkbox-checked.svg');
     background-color: #a7a7a7;
 }
 
@@ -14130,7 +14130,7 @@ input.validation-error {
     width: 19px;
     height: 8px;
     vertical-align: middle;
-    background-image: url('/cms/img/_repo-shared/select.png');
+    background-image: url('#{$imagePath}select.png');
     background-repeat: no-repeat;
     padding-right: 1rem;
     background-position: right center;

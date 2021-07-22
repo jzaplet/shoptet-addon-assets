@@ -1,0 +1,19 @@
+{
+  "name": "shoptet-addon-assets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jzaplet/shoptet-addon-assets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jzaplet/shoptet-addon-assets/issues"
+  },
+  "homepage": "https://github.com/jzaplet/shoptet-addon-assets#readme"
+}
